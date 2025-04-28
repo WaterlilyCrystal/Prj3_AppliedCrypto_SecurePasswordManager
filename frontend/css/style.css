@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+#search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1; /* Allow search input to take available space */
+    min-width: 150px; /* Prevent it from becoming too small */
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#import-btn {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+#new-item-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sort-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.sort-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding-right: 25px; /* Make space for dropdown arrow */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.shared-icon {
+    color: #888; /* Example color for shared icon */
+    margin-left: 5px;
+}
+
+/* Style for action buttons in table cells */
+td button {
+     padding: 5px 10px;
+     font-size: 12px;
+     margin-right: 5px;
+     /* Example styles, adjust as needed */
+     background-color: #eee;
+     color: #555;
+     border: 1px solid #ccc;
+}
+td button:last-child {
+     margin-right: 0;
+}
+/* Optional: Add hover states */
+td button:hover {
+    background-color: #ddd;
+}
+
+/* Add more styling for modals later */
